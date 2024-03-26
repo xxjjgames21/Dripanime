@@ -1,12 +1,12 @@
 // Api urls
 
-const ProxyApi = "https://proxy.techzbots1.workers.dev/?u=";
+const ProxyApi = "https://animedex-proxy.druvx13.workers.dev/?u=";
 const IndexApi = "/home";
 const recentapi = "/recent/";
 
 // Api Server Manager
 
-const AvailableServers = ["https://api69.anime-dex.workers.dev"];
+const AvailableServers = ["https://api.druvx13.workers.dev/"];
 
 function getApiServer() {
     return AvailableServers[Math.floor(Math.random() * AvailableServers.length)];
